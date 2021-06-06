@@ -44,10 +44,8 @@ class Finish(sprite.Sprite):
 win_width = 700
 win_height = 500
 
-
 font.init()
 font = font.SysFont('Arial', 25)
-
 
 player = Player("player.png", 650, 100,randint(1,3))
 opponent = Opponent("opponent.png",650,400,1) 
